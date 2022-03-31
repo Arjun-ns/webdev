@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Ramaraja&display=swap');
+video{
+    position: static; 
+    top: 50%; 
+    left: 50%; 
+    margin-top:-50% ; 
+    margin-left:-50%; 
+    z-index: 1;
+}
+
+div{
+    position: relative;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    width: 720px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 120px;
+    z-index: 3;
+}
+h1{
+    display: inline-block;
+    width: 720px;
+    font-family: 'Ramaraja', serif;
+    background-color: cornsilk;
+    padding: 10px;
+    border-radius: 20px;
+}
+a{
+    width: 100px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 7.5px;
+    margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+
+}
