@@ -1,20 +1,37 @@
-/* comments in css3*/
-@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
-
-body{
-    background: url("/Images/pexels-nikita-grishin-10147530.jpg");
-    background-repeat: center center fixed;
-    background-size:cover;   
-}
-
-h1{
-    color: aquamarine;
-    text-align: center;
-    border: 2px solid red;
-    font-family: 'Palette Mosaic', cursive;
+#h1{
+    text-align:center;
+    font-weight:bold;
+    font-size:3rem;
+    color:blue;
     
-    width: 300px;
-    padding: 20px;
-    margin: 0 auto;
-    margin-top: 125px
 }
+
+
+#main-box{
+    position:relative;
+    margin: 12.5%;
+    width:75%;
+    border:3px solid grey;
+}
+
+.div-box{
+    position: relative;
+    border:2px solid red;
+    margin: 5px ;
+    left: 5px;
+    width: 40%;
+    min-height: 150px;
+}
+.div-box:hover{
+    transition: all 1s ease-in-out infinite;
+    transform: rotate(30deg);
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+.div-box:nth-child(2n){
+    left: 53%;
+}
+
+
+
